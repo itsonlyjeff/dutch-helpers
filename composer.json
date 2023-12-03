@@ -1,0 +1,37 @@
+{
+    "name": "itsonlyjeff/dutch-helpers",
+    "description": "A set of tools to make working with Dutch contact details easier in Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["Laravel", "Postcode", "Adres", "Telefoonnummer"],
+    "autoload": {
+        "psr-4": {
+            "ItsOnlyJeff\\DutchHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeffrey van Reenen"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^10.34",
+        "illuminate/support": "^10.34"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ItsOnlyJeff\\DutchHelpers\\DutchHelpersServiceProvider"
+            ],
+            "aliases": {
+                "Dutchcontactformhelper": "ItsOnlyJeff\\DutchHelpers\\Facades\\DutchHelper"
+            }
+        }
+    }
+}
