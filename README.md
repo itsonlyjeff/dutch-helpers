@@ -1,6 +1,6 @@
 # Laravel Dutch Helpers
 
-Dit laravel pakket komt met een toolbox om Nederlandse adressen te zoeken aan de hand van postcode en huisnummer. Daarnaast breidt het de validatie regels uit met Nederlands telefoonnummer en postcode validatie.
+This Laravel package comes with a toolbox to search for Dutch addresses using zip code and house number. In addition, it extends the validation rules with Dutch telephone number and zip code validation.
 
 ## Features
 - Dutch Phone Number Validation
