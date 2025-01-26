@@ -21,8 +21,8 @@
     },
     "require": {
         "php": "^8.2",
-        "illuminate/http": "^10.34",
-        "illuminate/support": "^10.34"
+        "illuminate/http": "^11.40",
+        "illuminate/support": "^11.40"
     },
     "extra": {
         "laravel": {
