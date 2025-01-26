@@ -12,7 +12,7 @@ This Laravel package comes with a toolbox to search for Dutch addresses using zi
 Via Composer
 
 ```bash
-$ composer require itsonlyjeff/dutch-helpers:^0.1
+$ composer require itsonlyjeff/dutch-helpers:^0.2
 ```
 
 ## Basic Usage
